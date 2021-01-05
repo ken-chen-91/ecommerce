@@ -15,6 +15,12 @@ app.use(
   })
 );
 
+// Routes
+app.use('/user', require('./routes/userRouter'))
+
+
+
+
 // Coonect to mongodb
 const URI = process.env.MONGODB_URL;
 mongoose.connect(
@@ -27,17 +33,15 @@ mongoose.connect(
   },
   (err) => {
     if (err) throw err;
-    console.log('Connected to MongoDB')
+    console.log("Connected to MongoDB");
   }
 );
 
-app.get('/', (req, res) => {
-  res.json({msg:"Hello World"})
-})
+app.get("/", (req, res) => {
+  res.json({ msg: "Hello World" });
+});
 
-const PORT = process.env.PORT || 9000
+const PORT = process.env.PORT || 9000;
 app.listen(PORT, () => {
-  console.log('Server is running on port', PORT)
-})
-
-
+  console.log("Server is running on port", PORT);
+});
