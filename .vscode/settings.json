@@ -1,4 +1,5 @@
 {
     "compile-hero.disable-compile-files-on-did-save-code": true,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "commentTranslate.targetLanguage": "zh-CN"
 }
