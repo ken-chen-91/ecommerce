@@ -17,6 +17,7 @@ app.use(
 
 // Routes
 app.use('/user', require('./routes/userRouter'))
+app.use('/api', require('./routes/categoryRouter'))
 
 
 // Coonect to mongodb
@@ -39,7 +40,7 @@ app.get("/", (req, res) => {
     res.json({msg: "Hello World"});
 });
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log("Server is running on port", PORT);
 });
