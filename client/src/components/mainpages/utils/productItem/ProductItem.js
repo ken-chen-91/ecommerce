@@ -16,7 +16,7 @@ const ProductItem = ({ product }) => {
         <Link id="btn_buy" to="#!">
           Buy
         </Link>
-        <Link id="btn_view" to={`detail/${product._id}`}>
+        <Link id="btn_view" to={`/detail/${product._id}`}>
           View
         </Link>
       </div>
