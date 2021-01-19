@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import { GlobalState } from "../../../GlobalState";
 import ProductItem from "../utils/productItem/ProductItem";
+import Loading from '../utils/loading/Loading'
 
 const Products = () => {
   const state = useContext(GlobalState);
   const [products] = state.ProductsAPI.products;
 
   return (
+    <>
     <div className="products">
       {
         products.map(product => {
@@ -14,6 +16,8 @@ const Products = () => {
         })
       }
     </div>
+    {products.length === 0 && <Loading />}
+  </>
   );
 };
 

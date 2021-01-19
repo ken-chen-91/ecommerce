@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ae32541-4022-40f4-ac9c-5765e2dd172f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/GlobalState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/headers/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/headers/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/mainpages/Pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/mainpages/auth/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/GlobalState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/GlobalState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/headers/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/headers/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/mainpages/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/mainpages/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/mainpages/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/mainpages/auth/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/mainpages/products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/mainpages/products/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/mainpages/utils/productItem/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/mainpages/utils/productItem/ProductItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -80,6 +76,7 @@
       <workItem from="1610608433143" duration="6470000" />
       <workItem from="1610779762456" duration="2208000" />
       <workItem from="1610782557363" duration="71000" />
+      <workItem from="1611039007582" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="完成Login 和 Logout 的功能">
       <created>1610180691310</created>
